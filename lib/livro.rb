@@ -1,16 +1,19 @@
 # coding: utf-8
-class Livro
-    attr_accessor :valor
-    attr_reader :categoria, :autor, :titulo
+class Livro < Midia
+    attr_reader :categoria, :autor
+    
+    include FormatadorMoeda
 
     def initialize(titulo, autor, isbn = "1", numero_de_paginas,
                                               valor, categoria)
+        super()
         @titulo = titulo
         @autor = autor
         @isbn = isbn
         @numero_de_paginas = numero_de_paginas
         @categoria = categoria
         @valor = valor
+        @desconto = 0.15
     end
 
     def to_s

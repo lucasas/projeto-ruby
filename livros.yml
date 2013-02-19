@@ -1,24 +1,27 @@
+--- !ruby/object:DVD
+desconto: 0.1
+valor: 98.9
+titulo: Windows 7 for Dummies
+categoria: :sistemas_operacionais
+
+--- !ruby/object:Revista
+titulo: MundoJ
+
 --- !ruby/object:Livro
+desconto: 0.15
+valor: 247
 titulo: TDD
 autor: Mauricio Aniche
-isbn: '123454'
-numero_de_paginas: 247
+isbn: '1'
+numero_de_paginas: '123454'
 categoria: :testes
-valor: 69.9
 
 --- !ruby/object:Livro
-titulo: Web Design Responsivo
-autor: Trcio Zemel
-isbn: '45256'
-numero_de_paginas: 240
-categoria: :web
-valor: 69.9
-
---- !ruby/object:Livro
-titulo: Web com JSF e JPA
-autor: Gilliard Cordeiro
-isbn: '543232'
-numero_de_paginas: 270
-categoria: :web
-valor: 69.9
+desconto: 0.15
+valor: 247
+titulo: TDD
+autor: Mauricio Aniche
+isbn: '1'
+numero_de_paginas: '123454'
+categoria: :testes
 
