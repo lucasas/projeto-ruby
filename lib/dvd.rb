@@ -1,13 +1,16 @@
 # coding: utf-8
 class DVD < Midia
-  def initialize(titulo, valor, categoria)
-      super()
-      @titulo = titulo
-      @valor = valor
-      @categoria = categoria
-  end
+    attr_reader :titulo
 
-  def to_s
-      %Q{ Título: #{@titulo}, Valor: #{@valor} }
-  end
+    include FormatadorMoeda
+
+    formata_moeda :valor_com_desconto, :valor
+
+    def initialize(titulo, valor, categoria)
+        super()
+        @titulo = titulo
+        @valor = valor
+        @categoria = categoria
+    end
 end
+

@@ -1,0 +1,2 @@
+class DocumentNotFound < StandardError
+end
