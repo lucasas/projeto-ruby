@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    brnumeros (3.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  brnumeros (= 3.3.0)
