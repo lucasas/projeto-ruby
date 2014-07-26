@@ -1,6 +1,6 @@
 class Revista
-    include ActiveFile
+  include ActiveFile
 
-    field :titulo
-    field :valor
+  field :titulo, required: true
+  field :valor, default: 10.0
 end

@@ -1,27 +1,6 @@
---- !ruby/object:DVD
-desconto: 0.1
-valor: 98.9
-titulo: Windows 7 for Dummies
-categoria: :sistemas_operacionais
+--- !ruby/object:Livro
+teste: 123
 
---- !ruby/object:Revista
-titulo: MundoJ
 
 --- !ruby/object:Livro
-desconto: 0.15
-valor: 247
-titulo: TDD
-autor: Mauricio Aniche
-isbn: '1'
-numero_de_paginas: '123454'
-categoria: :testes
-
---- !ruby/object:Livro
-desconto: 0.15
-valor: 247
-titulo: TDD
-autor: Mauricio Aniche
-isbn: '1'
-numero_de_paginas: '123454'
-categoria: :testes
-
+teste: 123

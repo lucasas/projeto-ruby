@@ -1,3 +1,8 @@
+PATH
+  remote: ../active_file
+  specs:
+    active_file (0.0.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -7,4 +12,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_file!
   brnumeros (= 3.3.0)
